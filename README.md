@@ -21,9 +21,12 @@ git clone https://github.com/SantiagoZ98/App-Python_Flask.git
 
 
 ### 2. Pull the Docker Image
+
 Before running the container, you need to pull the Docker image. Use the following command to do so:
+
 ```bash
 docker pull santiagozurita26/my-app-flask
+
 
 ### 3. Run the Docker Container
 After pulling the image, run the Docker container using this command:
