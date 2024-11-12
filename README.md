@@ -19,21 +19,9 @@ First, clone the repository to your local machine by running the following comma
 ```bash
 git clone https://github.com/SantiagoZ98/App-Python_Flask.git
 
-
 ### 2. Pull the Docker Image
 
 Before running the container, you need to pull the Docker image. Use the following command to do so:
 
 ```bash
 docker pull santiagozurita26/my-app-flask
-
-
-### 3. Run the Docker Container
-After pulling the image, run the Docker container using this command:
-```bash
-docker run -p 5000:5000 my-app-flask
-
-### 4. Access the Application
-Once the container is running, you can access the application by navigating to the following URL in your web browser:
-```bash
-http://127.0.0.1:5000
